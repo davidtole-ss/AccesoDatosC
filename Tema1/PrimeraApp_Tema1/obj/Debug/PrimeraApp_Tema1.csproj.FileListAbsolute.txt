@@ -1,0 +1,7 @@
+C:\2DAM\AccesoDatos\Tema1\PrimeraApp_Tema1\bin\Debug\PrimeraApp_Tema1.exe.config
+C:\2DAM\AccesoDatos\Tema1\PrimeraApp_Tema1\bin\Debug\PrimeraApp_Tema1.exe
+C:\2DAM\AccesoDatos\Tema1\PrimeraApp_Tema1\bin\Debug\PrimeraApp_Tema1.pdb
+C:\2DAM\AccesoDatos\Tema1\PrimeraApp_Tema1\obj\Debug\PrimeraApp_Tema1.csproj.AssemblyReference.cache
+C:\2DAM\AccesoDatos\Tema1\PrimeraApp_Tema1\obj\Debug\PrimeraApp_Tema1.csproj.CoreCompileInputs.cache
+C:\2DAM\AccesoDatos\Tema1\PrimeraApp_Tema1\obj\Debug\PrimeraApp_Tema1.exe
+C:\2DAM\AccesoDatos\Tema1\PrimeraApp_Tema1\obj\Debug\PrimeraApp_Tema1.pdb
