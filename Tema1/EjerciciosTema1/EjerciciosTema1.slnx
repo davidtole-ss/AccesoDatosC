@@ -1,5 +1,14 @@
 <Solution>
   <Project Path="Ej1/Ej1.csproj" Id="2c914710-42e2-4d0d-8938-c16a045f9787" />
+  <Project Path="Ej11/Ej11.csproj" Id="2aa92ae5-96ee-46a3-97e2-dbd005ed22f2" />
+  <Project Path="Ej12/Ej12.csproj" Id="3e5276da-f9a4-477e-816c-7ec874a6735b" />
+  <Project Path="Ej14/Ej14.csproj" Id="40d2a881-ba66-457f-9afe-60cad11a3671" />
+  <Project Path="Ej15/Ej15.csproj" Id="6e74c17d-2d77-41e0-842d-0af57ec6baea" />
+  <Project Path="Ej16/Ej16.csproj" Id="144452da-ceb0-42b8-9e27-c43822d7ebba" />
   <Project Path="Ej2/Ej2.csproj" Id="97a550b2-afdf-47fa-96d9-d71bb8aa4cf3" />
   <Project Path="Ej3/Ej3.csproj" Id="fe92ea57-cb1b-4e64-8fc4-aea8a53287b6" />
+  <Project Path="Ej4/Ej4.csproj" Id="66e59949-d0d1-4f32-948d-7219708de49c" />
+  <Project Path="Ej5/Ej5.csproj" Id="6c1b2444-d220-41ab-bf70-24431c333838" />
+  <Project Path="Ej6/Ej6.csproj" Id="50a652fd-cebe-4982-94e8-34009eb5002a" />
+  <Project Path="EjemploLINQ/EjemploLINQ.csproj" Id="6b0b8f70-afa8-473a-8d91-2f5ad049002b" />
 </Solution>
