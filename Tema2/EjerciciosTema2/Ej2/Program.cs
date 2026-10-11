@@ -47,7 +47,7 @@ namespace Ej2
             using (StreamReader sr = new StreamReader(ruta))
             {
                 Console.WriteLine("Contenido de diario.txt:");
-                Console.Write(sr.ReadToEnd();
+                Console.Write(sr.ReadToEnd());
             }
 
             
