@@ -24,14 +24,14 @@ namespace Ej7
         public Coche(int id, string marca, string modelo, int anio, string combustible,
                      string color, int kilometros, int precio)
         {
-            Id = id;
-            Marca = marca;
-            Modelo = modelo;
-            Anio = anio;
-            Combustible = combustible;
-            Color = color;
-            Kilometros = kilometros;
-            Precio = precio;
+            this.Id = id;
+            this.Marca = marca;
+            this.Modelo = modelo;
+            this.Anio = anio;
+            this.Combustible = combustible;
+            this.Color = color;
+            this.Kilometros = kilometros;
+            this.Precio=precio;
         }
 
         public override string ToString()
