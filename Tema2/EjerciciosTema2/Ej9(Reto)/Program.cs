@@ -35,7 +35,6 @@ namespace Ej9_Reto_
         }
         public static List<Coche> LeerCsv(String ruta)
         {
-
             List<Coche> coches = new List<Coche>();
             using (StreamReader sr = new StreamReader(ruta))
             {

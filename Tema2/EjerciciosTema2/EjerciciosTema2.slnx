@@ -2,6 +2,7 @@
   <Project Path="Ej1.csproj" Id="9f2a3306-26d3-4017-823d-0a0c5e7969b7" />
   <Project Path="Ej2/Ej2.csproj" Id="52c7885e-433a-4c62-a4ac-d3e29504dad3" />
   <Project Path="Ej3/Ej3.csproj" Id="85fff89e-153e-46a4-9b65-b34dacb78718" />
+  <Project Path="Ej4/Ej4.csproj" Id="c6f2d17f-5c15-41e7-a3cc-4e533df5123f" />
   <Project Path="Ej6/Ej6.csproj" Id="af7f6b81-04a8-48bd-ba49-9794d2c3af55" />
   <Project Path="Ej7/Ej7.csproj" Id="e17eb827-4a92-4ec8-a083-8203fabc53c7" />
   <Project Path="Ej8/Ej8.csproj" Id="de48e134-b987-4767-a79a-19840cef65f0" />
