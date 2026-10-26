@@ -13,6 +13,10 @@ namespace Ej9_Reto_
     {
         static void Main(string[] args)
         {
+
+            int.TryParse(Console.ReadLine(),out int result);
+            result += 9;
+            Console.WriteLine(result);
             List<Coche> cochesCSV=LeerCsv("coches.csv");
             var sumaPreciosCSV = cochesCSV.Sum(s=>s.Precio);
             Console.WriteLine($"CSV: {cochesCSV.Count} coches, suma de precios {sumaPreciosCSV:N0}€");
@@ -24,7 +28,7 @@ namespace Ej9_Reto_
                 Console.WriteLine($"Json: {cochesJson.Count} coches, suma de precios {sumaPreciosJson:N0}€");
             }
             List<Coche> cochesXML;
-            using (FileStream leer=File.OpenRead("coches.xml"))
+            using (StreamReader leer=new StreamReader("coches.xml"))
             {
                 XmlSerializer serializadorXML=new XmlSerializer(typeof(List<Coche>));
                 cochesXML = (List<Coche>)serializadorXML.Deserialize(leer);           
