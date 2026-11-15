@@ -11,4 +11,10 @@
   <Project Path="Ej5/Ej5.csproj" Id="6c1b2444-d220-41ab-bf70-24431c333838" />
   <Project Path="Ej6/Ej6.csproj" Id="50a652fd-cebe-4982-94e8-34009eb5002a" />
   <Project Path="EjemploLINQ/EjemploLINQ.csproj" Id="6b0b8f70-afa8-473a-8d91-2f5ad049002b" />
+  <Project Path="Ej7/Ej7.csproj" Id="4130f7dc-7bbf-470b-b357-4fc5d6fee0cb" />
+  <Project Path="Ej8/Ej8.csproj" Id="d1927494-326d-4df2-9a8d-3a105b0fe25d" />
+  <Project Path="Ej9/Ej9.csproj" Id="83964e2a-28ff-437a-9ac1-4ec4b0fec8ed" />
+  <Project Path="Ej10/Ej10.csproj" Id="1493f49b-3c7e-4aaf-b41f-69d4d64e0aac" />
+  <Project Path="Ej13/Ej13.csproj" Id="b02079c3-aac0-44ed-bb57-7b5091085c71" />
+  <Project Path="Ej17/Ej17.csproj" Id="96f89f2b-c30f-4738-8e54-183523628234" />
 </Solution>

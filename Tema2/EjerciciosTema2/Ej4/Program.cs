@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -25,18 +25,25 @@ namespace Ej4
             {
                 File.WriteAllText(Path.Combine(descargas, nombre), $"Contenido de {nombre}");
             }
-            string[] ficheros = Directory.GetFiles("descargas");
+            string[] ficheros = Directory.GetFiles(descargas);
+            Array.Sort(ficheros);
+            Console.WriteLine($"Ficheros en descargas: {ficheros.Length}");
+
+            foreach (string ruta in ficheros)
+            {
+                if (Path.GetExtension(ruta) == ".tmp")
+                {
+                    File.Delete(ruta);
+                    Console.WriteLine($"Eliminado: {Path.GetFileName(ruta)}");
+                }
+            }
+
+            ficheros = Directory.GetFiles(descargas);
+            Array.Sort(ficheros);
             foreach (string ruta in ficheros)
             {
                 string nombre = Path.GetFileName(ruta);
                 string extension = Path.GetExtension(ruta);
-
-                if (extension == ".tmp")
-                {
-                    File.Delete(ruta);
-                    Console.WriteLine($"Eliminado: {nombre}");
-                    continue;
-                }
 
                 string subcarpeta = Path.Combine(descargas, extension.TrimStart('.'));
                 Directory.CreateDirectory(subcarpeta);
